@@ -1,0 +1,455 @@
+2023/04/25-21:08:40  [restartedMain] INFO   Starting HyperledgerFabricAppJavaDemoApplication on LAPTOP-DEICLED4 with PID 36132 (D:\myvscode\Code\Java\hyperledger-fabric-app-java-demo\target\classes started by EdisonChen in D:\myvscode\Code\Java\hyperledger-fabric-app-java-demo)
+2023/04/25-21:08:40  [restartedMain] INFO   No active profile set, falling back to default profiles: default
+2023/04/25-21:08:40  [restartedMain] INFO   Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023/04/25-21:08:40  [restartedMain] INFO   For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023/04/25-21:08:40  [restartedMain] INFO   Tomcat initialized with port(s): 8080 (http)
+2023/04/25-21:08:40  [restartedMain] INFO   Starting service [Tomcat]
+2023/04/25-21:08:40  [restartedMain] INFO   Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023/04/25-21:08:41  [restartedMain] INFO   Initializing Spring embedded WebApplicationContext
+2023/04/25-21:08:41  [restartedMain] INFO   Root WebApplicationContext: initialization completed in 1274 ms
+2023/04/25-21:08:41  [restartedMain] WARN   Failed to load any configuration from: config.properties. Using toolkit defaults
+2023/04/25-21:08:41  [restartedMain] INFO   =========================================== connected fabric gateway org.hyperledger.fabric.gateway.impl.GatewayImpl@43c332b2 
+2023/04/25-21:08:45  [restartedMain] INFO   Channel Channel{id: 1, name: mychannel} eventThread started shutdown: false  thread: null 
+2023/04/25-21:08:45  [restartedMain] INFO   Initializing ExecutorService 'applicationTaskExecutor'
+2023/04/25-21:08:46  [restartedMain] INFO   LiveReload server is running on port 35729
+2023/04/25-21:08:46  [restartedMain] INFO   Tomcat started on port(s): 8080 (http) with context path ''
+2023/04/25-21:08:46  [restartedMain] INFO   Started HyperledgerFabricAppJavaDemoApplication in 6.449 seconds (JVM running for 7.73)
+2023/04/25-21:08:52  [http-nio-8080-exec-2] INFO   Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023/04/25-21:08:52  [http-nio-8080-exec-2] INFO   Initializing Servlet 'dispatcherServlet'
+2023/04/25-21:08:52  [http-nio-8080-exec-2] INFO   Completed initialization in 5 ms
+2023/04/25-21:10:26  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:26  [http-nio-8080-exec-5] INFO   DID is 'a'
+2023/04/25-21:10:28  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:28  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:28  [http-nio-8080-exec-6] INFO   DID is 'b'
+2023/04/25-21:10:30  [http-nio-8080-exec-6] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:30  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:30  [http-nio-8080-exec-7] INFO   DID is 'c'
+2023/04/25-21:10:32  [http-nio-8080-exec-7] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:32  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:32  [http-nio-8080-exec-8] INFO   DID is 'e'
+2023/04/25-21:10:34  [http-nio-8080-exec-8] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:34  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:34  [http-nio-8080-exec-9] INFO   DID is 'f'
+2023/04/25-21:10:36  [http-nio-8080-exec-9] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:36  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:36  [http-nio-8080-exec-10] INFO   DID is 'g'
+2023/04/25-21:10:38  [http-nio-8080-exec-10] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:39  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:39  [http-nio-8080-exec-1] INFO   DID is 'h'
+2023/04/25-21:10:41  [http-nio-8080-exec-1] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:41  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:41  [http-nio-8080-exec-2] INFO   DID is 'a1'
+2023/04/25-21:10:43  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:43  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:43  [http-nio-8080-exec-3] INFO   DID is 'b1'
+2023/04/25-21:10:45  [http-nio-8080-exec-3] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:45  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:45  [http-nio-8080-exec-4] INFO   DID is 'c1'
+2023/04/25-21:10:47  [http-nio-8080-exec-4] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:47  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:47  [http-nio-8080-exec-5] INFO   DID is 'd1'
+2023/04/25-21:10:49  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:49  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:49  [http-nio-8080-exec-6] INFO   DID is 'e1'
+2023/04/25-21:10:51  [http-nio-8080-exec-6] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:51  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:51  [http-nio-8080-exec-7] INFO   DID is 'f1'
+2023/04/25-21:10:53  [http-nio-8080-exec-7] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:53  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:53  [http-nio-8080-exec-8] INFO   DID is 'g1'
+2023/04/25-21:10:55  [http-nio-8080-exec-8] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:55  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:55  [http-nio-8080-exec-9] INFO   DID is 'h1'
+2023/04/25-21:10:57  [http-nio-8080-exec-9] INFO   ============successfully save the DID doc==============
+2023/04/25-21:10:57  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:10:57  [http-nio-8080-exec-10] INFO   DID is 'a3'
+2023/04/25-21:11:00  [http-nio-8080-exec-10] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:00  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:00  [http-nio-8080-exec-1] INFO   DID is 'b3'
+2023/04/25-21:11:02  [http-nio-8080-exec-1] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:02  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:02  [http-nio-8080-exec-2] INFO   DID is 'c3'
+2023/04/25-21:11:04  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:04  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:04  [http-nio-8080-exec-3] INFO   DID is 'd3'
+2023/04/25-21:11:06  [http-nio-8080-exec-3] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:06  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:06  [http-nio-8080-exec-4] INFO   DID is 'e3'
+2023/04/25-21:11:08  [http-nio-8080-exec-4] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:08  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:08  [http-nio-8080-exec-5] INFO   DID is 'f3'
+2023/04/25-21:11:10  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:10  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:10  [http-nio-8080-exec-6] INFO   DID is 'g3'
+2023/04/25-21:11:12  [http-nio-8080-exec-6] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:12  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:12  [http-nio-8080-exec-7] INFO   DID is 'h3'
+2023/04/25-21:11:14  [http-nio-8080-exec-7] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:14  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:14  [http-nio-8080-exec-8] INFO   DID is 'a4'
+2023/04/25-21:11:16  [http-nio-8080-exec-8] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:16  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:16  [http-nio-8080-exec-9] INFO   DID is 'b4'
+2023/04/25-21:11:18  [http-nio-8080-exec-9] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:19  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:19  [http-nio-8080-exec-10] INFO   DID is 'c4'
+2023/04/25-21:11:21  [http-nio-8080-exec-10] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:21  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:21  [http-nio-8080-exec-1] INFO   DID is 'd4'
+2023/04/25-21:11:23  [http-nio-8080-exec-1] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:23  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:23  [http-nio-8080-exec-2] INFO   DID is 'e4'
+2023/04/25-21:11:25  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:25  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:25  [http-nio-8080-exec-3] INFO   DID is 'f4'
+2023/04/25-21:11:27  [http-nio-8080-exec-3] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:27  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:27  [http-nio-8080-exec-4] INFO   DID is 'g4'
+2023/04/25-21:11:29  [http-nio-8080-exec-4] INFO   ============successfully save the DID doc==============
+2023/04/25-21:11:29  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:11:29  [http-nio-8080-exec-5] INFO   DID is 'h4'
+2023/04/25-21:11:31  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:16:55  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:55  [http-nio-8080-exec-9] INFO   DID is 'a'
+2023/04/25-21:16:55  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:55  [http-nio-8080-exec-3] INFO   DID is 'a'
+2023/04/25-21:16:55  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:55  [http-nio-8080-exec-2] INFO   DID is 'a'
+2023/04/25-21:16:56  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:56  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:56  [http-nio-8080-exec-7] INFO   DID is 'a'
+2023/04/25-21:16:56  [http-nio-8080-exec-6] INFO   DID is 'a'
+2023/04/25-21:16:57  [http-nio-8080-exec-3] INFO   ============successfully save the DID doc==============
+2023/04/25-21:16:58  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:58  [http-nio-8080-exec-8] INFO   DID is 'b'
+2023/04/25-21:16:58  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:58  [http-nio-8080-exec-10] INFO   DID is 'b'
+2023/04/25-21:16:58  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:58  [http-nio-8080-exec-1] INFO   DID is 'b'
+2023/04/25-21:16:58  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:58  [http-nio-8080-exec-4] INFO   DID is 'b'
+2023/04/25-21:16:58  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:16:58  [http-nio-8080-exec-5] INFO   DID is 'b'
+2023/04/25-21:17:00  [http-nio-8080-exec-8] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:00  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:00  [http-nio-8080-exec-2] INFO   DID is 'c'
+2023/04/25-21:17:00  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:00  [http-nio-8080-exec-6] INFO   DID is 'c'
+2023/04/25-21:17:00  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:00  [http-nio-8080-exec-9] INFO   DID is 'c'
+2023/04/25-21:17:00  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:00  [http-nio-8080-exec-7] INFO   DID is 'c'
+2023/04/25-21:17:00  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:00  [http-nio-8080-exec-3] INFO   DID is 'c'
+2023/04/25-21:17:02  [http-nio-8080-exec-6] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:02  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:02  [http-nio-8080-exec-10] INFO   DID is 'e'
+2023/04/25-21:17:02  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:02  [http-nio-8080-exec-4] INFO   DID is 'e'
+2023/04/25-21:17:02  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:02  [http-nio-8080-exec-8] INFO   DID is 'e'
+2023/04/25-21:17:02  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:02  [http-nio-8080-exec-1] INFO   DID is 'e'
+2023/04/25-21:17:02  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:02  [http-nio-8080-exec-5] INFO   DID is 'e'
+2023/04/25-21:17:04  [http-nio-8080-exec-10] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:04  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:04  [http-nio-8080-exec-3] INFO   DID is 'f'
+2023/04/25-21:17:04  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:04  [http-nio-8080-exec-2] INFO   DID is 'f'
+2023/04/25-21:17:04  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:04  [http-nio-8080-exec-7] INFO   DID is 'f'
+2023/04/25-21:17:04  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:04  [http-nio-8080-exec-9] INFO   DID is 'f'
+2023/04/25-21:17:04  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:04  [http-nio-8080-exec-6] INFO   DID is 'f'
+2023/04/25-21:17:06  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:07  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:07  [http-nio-8080-exec-5] INFO   DID is 'g'
+2023/04/25-21:17:07  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:07  [http-nio-8080-exec-1] INFO   DID is 'g'
+2023/04/25-21:17:07  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:07  [http-nio-8080-exec-8] INFO   DID is 'g'
+2023/04/25-21:17:07  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:07  [http-nio-8080-exec-4] INFO   DID is 'g'
+2023/04/25-21:17:07  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:07  [http-nio-8080-exec-10] INFO   DID is 'g'
+2023/04/25-21:17:09  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:09  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:09  [http-nio-8080-exec-2] INFO   DID is 'h'
+2023/04/25-21:17:09  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:09  [http-nio-8080-exec-6] INFO   DID is 'h'
+2023/04/25-21:17:09  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:09  [http-nio-8080-exec-3] INFO   DID is 'h'
+2023/04/25-21:17:09  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:09  [http-nio-8080-exec-9] INFO   DID is 'h'
+2023/04/25-21:17:09  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:09  [http-nio-8080-exec-7] INFO   DID is 'h'
+2023/04/25-21:17:11  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:11  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:11  [http-nio-8080-exec-5] INFO   DID is 'a1'
+2023/04/25-21:17:11  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:11  [http-nio-8080-exec-1] INFO   DID is 'a1'
+2023/04/25-21:17:11  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:11  [http-nio-8080-exec-10] INFO   DID is 'a1'
+2023/04/25-21:17:11  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:11  [http-nio-8080-exec-4] INFO   DID is 'a1'
+2023/04/25-21:17:11  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:11  [http-nio-8080-exec-8] INFO   DID is 'a1'
+2023/04/25-21:17:13  [http-nio-8080-exec-1] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:14  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:14  [http-nio-8080-exec-6] INFO   DID is 'b1'
+2023/04/25-21:17:14  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:14  [http-nio-8080-exec-7] INFO   DID is 'b1'
+2023/04/25-21:17:14  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:14  [http-nio-8080-exec-3] INFO   DID is 'b1'
+2023/04/25-21:17:14  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:14  [http-nio-8080-exec-2] INFO   DID is 'b1'
+2023/04/25-21:17:14  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:14  [http-nio-8080-exec-9] INFO   DID is 'b1'
+2023/04/25-21:17:16  [http-nio-8080-exec-7] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:16  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:16  [http-nio-8080-exec-4] INFO   DID is 'c1'
+2023/04/25-21:17:16  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:16  [http-nio-8080-exec-1] INFO   DID is 'c1'
+2023/04/25-21:17:16  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:16  [http-nio-8080-exec-5] INFO   DID is 'c1'
+2023/04/25-21:17:16  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:16  [http-nio-8080-exec-8] INFO   DID is 'c1'
+2023/04/25-21:17:16  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:16  [http-nio-8080-exec-10] INFO   DID is 'c1'
+2023/04/25-21:17:18  [http-nio-8080-exec-4] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:18  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:18  [http-nio-8080-exec-6] INFO   DID is 'd1'
+2023/04/25-21:17:18  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:18  [http-nio-8080-exec-9] INFO   DID is 'd1'
+2023/04/25-21:17:18  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:18  [http-nio-8080-exec-7] INFO   DID is 'd1'
+2023/04/25-21:17:18  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:18  [http-nio-8080-exec-3] INFO   DID is 'd1'
+2023/04/25-21:17:18  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:18  [http-nio-8080-exec-2] INFO   DID is 'd1'
+2023/04/25-21:17:20  [http-nio-8080-exec-9] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:21  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:21  [http-nio-8080-exec-5] INFO   DID is 'e1'
+2023/04/25-21:17:21  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:21  [http-nio-8080-exec-10] INFO   DID is 'e1'
+2023/04/25-21:17:21  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:21  [http-nio-8080-exec-4] INFO   DID is 'e1'
+2023/04/25-21:17:21  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:21  [http-nio-8080-exec-8] INFO   DID is 'e1'
+2023/04/25-21:17:21  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:21  [http-nio-8080-exec-1] INFO   DID is 'e1'
+2023/04/25-21:17:23  [http-nio-8080-exec-10] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:23  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:23  [http-nio-8080-exec-2] INFO   DID is 'f1'
+2023/04/25-21:17:23  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:23  [http-nio-8080-exec-9] INFO   DID is 'f1'
+2023/04/25-21:17:23  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:23  [http-nio-8080-exec-7] INFO   DID is 'f1'
+2023/04/25-21:17:23  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:23  [http-nio-8080-exec-3] INFO   DID is 'f1'
+2023/04/25-21:17:23  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:23  [http-nio-8080-exec-6] INFO   DID is 'f1'
+2023/04/25-21:17:25  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:25  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:25  [http-nio-8080-exec-10] INFO   DID is 'g1'
+2023/04/25-21:17:25  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:25  [http-nio-8080-exec-1] INFO   DID is 'g1'
+2023/04/25-21:17:25  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:25  [http-nio-8080-exec-4] INFO   DID is 'g1'
+2023/04/25-21:17:25  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:25  [http-nio-8080-exec-5] INFO   DID is 'g1'
+2023/04/25-21:17:25  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:25  [http-nio-8080-exec-8] INFO   DID is 'g1'
+2023/04/25-21:17:27  [http-nio-8080-exec-10] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:28  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:28  [http-nio-8080-exec-6] INFO   DID is 'h1'
+2023/04/25-21:17:28  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:28  [http-nio-8080-exec-7] INFO   DID is 'h1'
+2023/04/25-21:17:28  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:28  [http-nio-8080-exec-2] INFO   DID is 'h1'
+2023/04/25-21:17:28  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:28  [http-nio-8080-exec-3] INFO   DID is 'h1'
+2023/04/25-21:17:28  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:28  [http-nio-8080-exec-9] INFO   DID is 'h1'
+2023/04/25-21:17:30  [http-nio-8080-exec-6] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:30  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:30  [http-nio-8080-exec-5] INFO   DID is 'a3'
+2023/04/25-21:17:30  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:30  [http-nio-8080-exec-8] INFO   DID is 'a3'
+2023/04/25-21:17:30  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:30  [http-nio-8080-exec-1] INFO   DID is 'a3'
+2023/04/25-21:17:30  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:30  [http-nio-8080-exec-10] INFO   DID is 'a3'
+2023/04/25-21:17:30  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:30  [http-nio-8080-exec-4] INFO   DID is 'a3'
+2023/04/25-21:17:32  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:32  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:32  [http-nio-8080-exec-9] INFO   DID is 'b3'
+2023/04/25-21:17:32  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:32  [http-nio-8080-exec-2] INFO   DID is 'b3'
+2023/04/25-21:17:32  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:32  [http-nio-8080-exec-7] INFO   DID is 'b3'
+2023/04/25-21:17:32  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:32  [http-nio-8080-exec-3] INFO   DID is 'b3'
+2023/04/25-21:17:32  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:32  [http-nio-8080-exec-6] INFO   DID is 'b3'
+2023/04/25-21:17:34  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:35  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:35  [http-nio-8080-exec-10] INFO   DID is 'c3'
+2023/04/25-21:17:35  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:35  [http-nio-8080-exec-4] INFO   DID is 'c3'
+2023/04/25-21:17:35  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:35  [http-nio-8080-exec-8] INFO   DID is 'c3'
+2023/04/25-21:17:35  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:35  [http-nio-8080-exec-5] INFO   DID is 'c3'
+2023/04/25-21:17:35  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:35  [http-nio-8080-exec-1] INFO   DID is 'c3'
+2023/04/25-21:17:37  [http-nio-8080-exec-10] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:37  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:37  [http-nio-8080-exec-2] INFO   DID is 'd3'
+2023/04/25-21:17:37  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:37  [http-nio-8080-exec-9] INFO   DID is 'd3'
+2023/04/25-21:17:37  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:37  [http-nio-8080-exec-3] INFO   DID is 'd3'
+2023/04/25-21:17:37  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:37  [http-nio-8080-exec-6] INFO   DID is 'd3'
+2023/04/25-21:17:37  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:37  [http-nio-8080-exec-7] INFO   DID is 'd3'
+2023/04/25-21:17:39  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:39  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:39  [http-nio-8080-exec-8] INFO   DID is 'e3'
+2023/04/25-21:17:39  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:39  [http-nio-8080-exec-5] INFO   DID is 'e3'
+2023/04/25-21:17:39  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:39  [http-nio-8080-exec-4] INFO   DID is 'e3'
+2023/04/25-21:17:39  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:39  [http-nio-8080-exec-1] INFO   DID is 'e3'
+2023/04/25-21:17:39  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:39  [http-nio-8080-exec-10] INFO   DID is 'e3'
+2023/04/25-21:17:41  [http-nio-8080-exec-8] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:42  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:42  [http-nio-8080-exec-2] INFO   DID is 'f3'
+2023/04/25-21:17:42  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:42  [http-nio-8080-exec-7] INFO   DID is 'f3'
+2023/04/25-21:17:42  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:42  [http-nio-8080-exec-9] INFO   DID is 'f3'
+2023/04/25-21:17:42  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:42  [http-nio-8080-exec-3] INFO   DID is 'f3'
+2023/04/25-21:17:42  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:42  [http-nio-8080-exec-6] INFO   DID is 'f3'
+2023/04/25-21:17:44  [http-nio-8080-exec-7] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:44  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:44  [http-nio-8080-exec-8] INFO   DID is 'g3'
+2023/04/25-21:17:44  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:44  [http-nio-8080-exec-5] INFO   DID is 'g3'
+2023/04/25-21:17:44  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:44  [http-nio-8080-exec-1] INFO   DID is 'g3'
+2023/04/25-21:17:44  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:44  [http-nio-8080-exec-4] INFO   DID is 'g3'
+2023/04/25-21:17:44  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:44  [http-nio-8080-exec-10] INFO   DID is 'g3'
+2023/04/25-21:17:46  [http-nio-8080-exec-8] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:46  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:46  [http-nio-8080-exec-2] INFO   DID is 'h3'
+2023/04/25-21:17:46  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:46  [http-nio-8080-exec-6] INFO   DID is 'h3'
+2023/04/25-21:17:46  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:46  [http-nio-8080-exec-7] INFO   DID is 'h3'
+2023/04/25-21:17:46  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:46  [http-nio-8080-exec-3] INFO   DID is 'h3'
+2023/04/25-21:17:46  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:46  [http-nio-8080-exec-9] INFO   DID is 'h3'
+2023/04/25-21:17:48  [http-nio-8080-exec-6] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:48  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:48  [http-nio-8080-exec-8] INFO   DID is 'a4'
+2023/04/25-21:17:48  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:48  [http-nio-8080-exec-5] INFO   DID is 'a4'
+2023/04/25-21:17:49  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:49  [http-nio-8080-exec-10] INFO   DID is 'a4'
+2023/04/25-21:17:49  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:49  [http-nio-8080-exec-1] INFO   DID is 'a4'
+2023/04/25-21:17:49  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:49  [http-nio-8080-exec-4] INFO   DID is 'a4'
+2023/04/25-21:17:51  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:51  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:51  [http-nio-8080-exec-3] INFO   DID is 'b4'
+2023/04/25-21:17:51  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:51  [http-nio-8080-exec-6] INFO   DID is 'b4'
+2023/04/25-21:17:51  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:51  [http-nio-8080-exec-9] INFO   DID is 'b4'
+2023/04/25-21:17:51  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:51  [http-nio-8080-exec-7] INFO   DID is 'b4'
+2023/04/25-21:17:51  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:51  [http-nio-8080-exec-2] INFO   DID is 'b4'
+2023/04/25-21:17:53  [http-nio-8080-exec-3] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:53  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:53  [http-nio-8080-exec-5] INFO   DID is 'c4'
+2023/04/25-21:17:53  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:53  [http-nio-8080-exec-10] INFO   DID is 'c4'
+2023/04/25-21:17:53  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:53  [http-nio-8080-exec-8] INFO   DID is 'c4'
+2023/04/25-21:17:53  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:53  [http-nio-8080-exec-1] INFO   DID is 'c4'
+2023/04/25-21:17:53  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:53  [http-nio-8080-exec-4] INFO   DID is 'c4'
+2023/04/25-21:17:55  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:55  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:55  [http-nio-8080-exec-7] INFO   DID is 'd4'
+2023/04/25-21:17:55  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:55  [http-nio-8080-exec-2] INFO   DID is 'd4'
+2023/04/25-21:17:55  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:55  [http-nio-8080-exec-9] INFO   DID is 'd4'
+2023/04/25-21:17:55  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:55  [http-nio-8080-exec-6] INFO   DID is 'd4'
+2023/04/25-21:17:55  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:55  [http-nio-8080-exec-3] INFO   DID is 'd4'
+2023/04/25-21:17:57  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:17:58  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:58  [http-nio-8080-exec-8] INFO   DID is 'e4'
+2023/04/25-21:17:58  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:58  [http-nio-8080-exec-10] INFO   DID is 'e4'
+2023/04/25-21:17:58  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:58  [http-nio-8080-exec-1] INFO   DID is 'e4'
+2023/04/25-21:17:58  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:58  [http-nio-8080-exec-4] INFO   DID is 'e4'
+2023/04/25-21:17:58  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:17:58  [http-nio-8080-exec-5] INFO   DID is 'e4'
+2023/04/25-21:18:00  [http-nio-8080-exec-8] INFO   ============successfully save the DID doc==============
+2023/04/25-21:18:00  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:00  [http-nio-8080-exec-2] INFO   DID is 'f4'
+2023/04/25-21:18:00  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:00  [http-nio-8080-exec-7] INFO   DID is 'f4'
+2023/04/25-21:18:00  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:00  [http-nio-8080-exec-9] INFO   DID is 'f4'
+2023/04/25-21:18:00  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:00  [http-nio-8080-exec-3] INFO   DID is 'f4'
+2023/04/25-21:18:00  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:00  [http-nio-8080-exec-6] INFO   DID is 'f4'
+2023/04/25-21:18:02  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:18:02  [http-nio-8080-exec-5] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:02  [http-nio-8080-exec-5] INFO   DID is 'g4'
+2023/04/25-21:18:02  [http-nio-8080-exec-4] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:02  [http-nio-8080-exec-4] INFO   DID is 'g4'
+2023/04/25-21:18:02  [http-nio-8080-exec-10] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:02  [http-nio-8080-exec-10] INFO   DID is 'g4'
+2023/04/25-21:18:02  [http-nio-8080-exec-8] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:02  [http-nio-8080-exec-8] INFO   DID is 'g4'
+2023/04/25-21:18:02  [http-nio-8080-exec-1] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:02  [http-nio-8080-exec-1] INFO   DID is 'g4'
+2023/04/25-21:18:04  [http-nio-8080-exec-5] INFO   ============successfully save the DID doc==============
+2023/04/25-21:18:05  [http-nio-8080-exec-7] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:05  [http-nio-8080-exec-7] INFO   DID is 'h4'
+2023/04/25-21:18:05  [http-nio-8080-exec-2] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:05  [http-nio-8080-exec-2] INFO   DID is 'h4'
+2023/04/25-21:18:05  [http-nio-8080-exec-6] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:05  [http-nio-8080-exec-6] INFO   DID is 'h4'
+2023/04/25-21:18:05  [http-nio-8080-exec-9] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:05  [http-nio-8080-exec-9] INFO   DID is 'h4'
+2023/04/25-21:18:05  [http-nio-8080-exec-3] INFO   ============start to save the DID doc==================
+2023/04/25-21:18:05  [http-nio-8080-exec-3] INFO   DID is 'h4'
+2023/04/25-21:18:07  [http-nio-8080-exec-2] INFO   ============successfully save the DID doc==============
+2023/04/25-21:22:35  [SpringContextShutdownHook] INFO   Shutting down ExecutorService 'applicationTaskExecutor'
+2023/04/25-21:22:41  [pool-1-thread-1] INFO   Channel mychannel eventThread shutting down. shutdown: true  thread: pool-1-thread-1 
