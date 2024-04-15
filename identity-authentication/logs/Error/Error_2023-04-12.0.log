@@ -1,0 +1,1 @@
+2023-04-12 11:49:31.834 [1;31m[ERROR][0;39m [http-nio-8081-exec-6] s.d.d.config.GlobalExceptionHandler GlobalExceptionHandler.java.78  - System Exception! request API:/did/applyVP,Exception:java.lang.IndexOutOfBoundsException: Index -1 out of bounds for length 6

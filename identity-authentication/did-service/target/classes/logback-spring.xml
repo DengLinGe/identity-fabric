@@ -1,0 +1,85 @@
+<configuration>
+
+    <property name="LOG_PATH" value="./logs" />
+
+
+    <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度%msg：日志消息，%n是换行符 -->
+    <property name="LOG_PATTERN"
+              value="%d{yyyy-MM-dd} %d{HH:mm:ss.SSS} %highlight([%-5level]) [%thread] %logger{36} %F.%L %X{TRACE_ID} - %msg%n"></property>
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ALL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/all.log</file>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/all.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <appender name="sql" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_PATH}/sql.log</file>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_PATH}/sql.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!--日志保留天数-->
+            <maxHistory>10</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+    <!--Error文件输出-->
+    <!-- 按照每天和固定大小(5MB)生成日志文件【最新的日志，是日期最大数字最大的】 -->
+    <appender name="FileErrorLog"  class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <!--设置日志级别,过滤掉info日志,只输入error日志-->
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <!--滚动策略-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--日志文件输出的文件名-->
+            <FileNamePattern>${LOG_PATH}/Error/Error_%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+            <!--日志文件保留天数-->
+            <MaxHistory>5</MaxHistory>
+            <!--日志文件最大的大小-->
+            <MaxFileSize>5MB</MaxFileSize>
+        </rollingPolicy>
+        <!--格式化输出-->
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--格式化输出：%d表示日期，%thread表示线程名，%-5level：级别从左显示5个字符宽度 %msg：日志消息，%n是换行符-->
+            <pattern>${LOG_PATTERN}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+<!--        <appender-ref ref="FileErrorLog"/>-->
+        <springProfile name="prod">
+            <appender-ref ref="ALL"/>
+        </springProfile>
+    </root>
+
+    <!--sql日志，只打印到sql.log不向上输出到all.log-->
+    <logger name="scut.deng.didservice.mapper" additivity="false">
+        <level value="DEBUG"/>
+        <appender-ref ref="sql"/>
+    </logger>
+
+    <!--错误日志等级设置-->
+    <logger name="scut.deng" level="info" additivity="true">
+        <appender-ref ref="FileErrorLog"></appender-ref>
+    </logger>
+
+
+</configuration>

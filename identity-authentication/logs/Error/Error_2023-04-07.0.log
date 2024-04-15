@@ -1,0 +1,1 @@
+2023-04-07 10:24:16.302 [1;31m[ERROR][0;39m [http-nio-8081-exec-1] s.d.d.config.GlobalExceptionHandler GlobalExceptionHandler.java.78  - System Exception! request API:/did/getDoc,Exception:java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "org.springframework.http.ResponseEntity.getBody()" is null

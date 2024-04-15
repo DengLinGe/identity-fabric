@@ -1,0 +1,8 @@
+2023-03-22 19:00:16.973 [INFO ] [main] o.s.b.w.e.tomcat.TomcatWebServer TomcatWebServer.java.108  - Tomcat initialized with port(s): 8080 (http)
+2023-03-22 19:00:16.982 [INFO ] [main] o.a.coyote.http11.Http11NioProtocol DirectJDKLog.java.173  - Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-22 19:00:16.983 [INFO ] [main] o.a.catalina.core.StandardService DirectJDKLog.java.173  - Starting service [Tomcat]
+2023-03-22 19:00:16.983 [INFO ] [main] o.a.catalina.core.StandardEngine DirectJDKLog.java.173  - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-22 19:00:17.095 [INFO ] [main] o.a.c.c.C.[Tomcat].[localhost].[/] DirectJDKLog.java.173  - Initializing Spring embedded WebApplicationContext
+2023-03-22 19:00:17.096 [INFO ] [main] o.s.b.w.s.c.ServletWebServerApplicationContext ServletWebServerApplicationContext.java.291  - Root WebApplicationContext: initialization completed in 763 ms
+2023-03-22 19:00:17.350 [INFO ] [main] o.a.coyote.http11.Http11NioProtocol DirectJDKLog.java.173  - Starting ProtocolHandler ["http-nio-8080"]
+2023-03-22 19:00:17.379 [INFO ] [main] o.s.b.w.e.tomcat.TomcatWebServer TomcatWebServer.java.220  - Tomcat started on port(s): 8080 (http) with context path ''

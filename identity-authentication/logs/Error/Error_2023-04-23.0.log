@@ -1,0 +1,1 @@
+2023-04-23 10:25:59.406 [1;31m[ERROR][0;39m [http-nio-8081-exec-3] s.d.d.config.GlobalExceptionHandler GlobalExceptionHandler.java.78  - System Exception! request API:/did/create,Exception:org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:8080/fabric/saveDoc": Connection refused: no further information
